@@ -9,6 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout the latest version
+      uses: actions/checkout@v2
     - name: Configure AWS credentials
       id: creds
       uses: aws-actions/configure-aws-credentials@v1
