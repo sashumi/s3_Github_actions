@@ -1,4 +1,4 @@
-name: Upload Website
+name: Create S3 buckets using clous formation stacks
 
 on:
   push:
