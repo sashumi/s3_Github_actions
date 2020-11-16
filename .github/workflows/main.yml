@@ -1,4 +1,4 @@
-name: Create S3 buckets using clous formation stacks
+name: Create S3 buckets using cloud formation stacks
 
 on:
   push:
