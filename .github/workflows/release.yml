@@ -18,4 +18,4 @@ jobs:
         aws-region: eu-west-1
     
     - name: Release to S3
-      run: bash scripts/pipeline/release.sh "myapp.zip"
+      run: bash scripts/pipeline/release.sh ${{secrets.AWS_Bucket_Name}} "folder1/myapp.zip" "myapp.zip"
