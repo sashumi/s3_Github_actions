@@ -9,6 +9,8 @@ Resources:
     Description: Creating Amazon S3 bucket from CloudFormation
     Properties:
       BucketName: sashumi15111340
+      BucketName: sashumi15111341
+      BucketName: sashumi15111342
       
     
 Outputs:
