@@ -30,14 +30,8 @@ Resources:
 
 
 Outputs:
-  S3Bucket1:
+  S3Bucket:
     Description: Bucket Created using this template.
     Value: !Ref S3Bucket
 
-  S3Bucket2:
-    Description: Bucket Created using this template.
-    Value: !Ref S3Bucket
-
-  S3Bucket3:
-    Description: Bucket Created using this template.
-    Value: !Ref S3Bucket
+  
